@@ -4,6 +4,7 @@
 инструкция по запуску программы:
 
 g++ -o server server.cpp server_main.cpp -pthread -std=c++11
+
 g++ -o client client.cpp client_main.cpp -pthread -std=c++11
 
 В первом терминале (сервер): ./server
